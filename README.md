@@ -43,3 +43,22 @@ node json_format.js
   languages: [ 'English', 'French (official)' ]
 }
 ```
+
+## json_response
+
+```sh
+node json_response.js
+```
+
+```json
+{
+  sky_colors: [
+    { daytime: 'colorful', afternoon: 'blue', evening: 'dark blue' },
+    {
+      daytime: 'colorless',
+      afternoon: 'grayish',
+      evening: 'yellowish'
+    }
+  ]
+}
+```

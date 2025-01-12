@@ -14,5 +14,5 @@ const response = await ollama.chat({
     format: zodToJsonSchema(Country),
 })
 
-const country = Country.parse(JSON.parse(response.message.content));
+const country = Country.parse(JSON.parse(response.message.content))
 console.log(country)
