@@ -1,6 +1,10 @@
 # qwen-learn
 qwen learn
 
+## ollama api
+
+https://github.com/ollama/ollama/blob/main/docs/api.md
+
 ## function_calls
 
 ```sh
@@ -23,5 +27,19 @@ node function_calls.js
   "prompt_eval_duration": 267000000,
   "eval_count": 30,
   "eval_duration": 301000000
+}
+```
+
+## json_format
+
+```sh
+node json_format.js
+```
+
+```json
+{
+  name: 'Canada',
+  capital: 'Ottawa',
+  languages: [ 'English', 'French (official)' ]
 }
 ```
